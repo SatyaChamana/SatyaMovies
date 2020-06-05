@@ -1,0 +1,61 @@
+{
+    "movies" : [
+        {
+            "name":"Mathu Vadalara",
+            "language": "Telugu",
+            "type" : "2D",
+            "rating": 4,
+            "img": "./Images/mv.jpg",
+            "location": ["Vizag","Hyderabad"]
+        },
+        {
+            "name":"Baahubali",
+            "language": "Telugu",
+            "type" : "3D",
+            "rating": 5,
+            "img": "./Images/bb.jpg",
+            "location": ["Vizag","Hyderabad","Mysore"]
+        },
+        {
+            "name":"Love aaj kal",
+            "language": "Hindi",
+            "type" : "2D",
+            "rating": 2,
+            "img": "./Images/lak.jpg",
+            "location": ["Mysore","Hyderabad"]
+        },
+        {
+            "name":"John Wick 3",
+            "language": "English",
+            "type" : "2D",
+            "rating": 5,
+            "img": "./Images/jw3.png",
+            "location": ["Vizag","Hyderabad"]
+        },
+        {
+            "name":"Shawshank Redemption",
+            "language": "English",
+            "type" : "2D",
+            "rating": 4,
+            "img": "./Images/ssr.jpg",
+            "location": ["Vizag","Hyderabad"]
+        },
+        {
+            "name":"Lord of the rings ",
+            "language": "English",
+            "type" : "2D",
+            "rating": 4,
+            "img": "./Images/lor1.jpg",
+            "location": ["Vizag","Hyderabad"]
+        },
+        {
+            "name":"Pirates of the Caribbean 5",
+            "language": "English",
+            "type" : "2D",
+            "rating": 5,
+            "img": "./Images/poc5.jpg",
+            "location": ["Vizag","Hyderabad"]
+        }
+        
+    ]
+}

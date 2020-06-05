@@ -1,0 +1,161 @@
+.appWrapper{
+  background: linear-gradient(to left, #8942a8, #ba382f);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.movieImg .movieRating img{
+  width: 15px;
+  height: 15px;
+}
+
+.movieImg img{
+  height: 300px;
+  width: 200px;
+}
+
+.movieImg{
+  margin: 20px;
+  padding: 1px;
+  height: 410px;
+  width: 200px;
+  border: 6px solid dodgerblue;
+  border-radius: 15px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.moviesWrapper-Container{
+
+}
+
+.movieImg:hover{
+  border: 6px solid red;
+  transition: .3s;
+}
+.movieTitle{
+  cursor: pointer;
+}
+
+.movieTitle:hover{
+  text-decoration: underline;
+}
+
+.movieLanguage{
+
+}
+
+.movieRating{
+}
+
+.moviesWrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  
+}
+
+
+.errorTxt{
+  font-size: 20px;
+  color: red;
+
+}
+.logSubmit{
+  width: 80px;
+    height: 35px;
+    display: inline-block;
+    margin-top: 25px;
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.compInput input[type="password"]{
+  border: 1px solid dodgerblue;
+  border-radius: 4px;
+  width: 100%;
+  height: 20px;
+  outline: none;
+  /* box-sizing: border-box; */
+}
+.compInput input[type="text"]{
+  border: 1px solid dodgerblue;
+  border-radius: 4px;
+  width: 100%;
+  height: 20px;
+  outline: none;
+  /* box-sizing: border-box; */
+}
+
+.compInput input[type="text"]:focus{
+  border-color:  red;
+  border-radius: 4px;
+ 
+  box-shadow: 0 0 8px 0 red;
+}
+.compInput input[type="password"]:focus{
+  border-color: red;
+  border-radius: 4px;
+ 
+  box-shadow: 0 0 8px 0 red;
+
+}
+
+.compInput{
+  display: flex;
+  padding: 10px;
+}
+
+.compLabel{
+  flex:1;
+  text-align: end;
+}
+
+.compField{
+  flex:3;
+  text-align: initial;
+  padding-left: 10px;
+  padding-right: 40px;
+}
+.navbar{
+  height :60px;
+  background-color: gray;
+  
+}
+.navText{
+  margin-left: 40px;
+  padding-top: 15px;
+  font-family: cursive;
+  color: chartreuse;
+  font-size: 20px;
+}
+.loginContainer{
+  display: inline-block;
+    height: 300px;
+    width: 500px;
+    margin-top: 5%;
+}
+.topHeading{
+  background-color: blue;
+  height: 45px;
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 12px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-size: 20px;
+}
+.loginDetails{
+height: 100%;
+border: 1px solid blue;
+}
+.loginScreen{
+  text-align: center;
+}
+.loginboxes{
+  margin-top: 20px;
+}

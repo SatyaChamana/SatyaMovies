@@ -1,0 +1,58 @@
+{
+    "Theaters": [ 
+                    {
+                        "name" : "Asian CInemas",
+                        "movies" : 
+                        [
+                            {
+                                "movie" : "Mathu Vadalara",
+                                "time" : ["10:00", "13:00", "21:15"],
+                                "date" : ["27/04/2020","28/04/2020"],
+                                "price" : 200
+                            },
+                            {
+                                "movie" : "John Wick 3",
+                                "time" : ["17:00"],
+                                "date" : ["27/04/2020","28/04/2020"],
+                                "price" : 200
+                            }
+                        ]
+                    },
+                    {
+                        "name" : "Prasads Multiplex",
+                        "movies" : 
+                        [
+                            {
+                                "movie" : "Baahubali",
+                                "time" : ["10:00", "15:00", "21:15"],
+                                "date" : ["26/04/2020","29/04/2020"],
+                                "price" : 300
+                            },
+                            {
+                                "movie" : "John Wick 3",
+                                "time" : ["17:00"],
+                                "date" : ["27/04/2020","28/04/2020"],
+                                "price" : 200
+                            }
+                        ]
+                    },
+                    {
+                        "name" : "Imax Gachiboli",
+                        "movies" : 
+                        [
+                            {
+                                "movie" : "Love aaj kal",
+                                "time" : ["13:00", "21:15"],
+                                "date" : ["27/04/2020","28/04/2020"],
+                                "price" : 100
+                            },
+                            {
+                                "movie" : "John Wick 3",
+                                "time" : ["17:00","21:35"],
+                                "date" : ["29/04/2020","26/04/2020"],
+                                "price" : 200
+                            }
+                        ]
+                    }
+                ]
+}
