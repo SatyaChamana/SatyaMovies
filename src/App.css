@@ -23,9 +23,10 @@
   height: 410px;
   width: 200px;
   border: 6px solid dodgerblue;
-  border-radius: 15px;
+  border-radius: 8px;
   text-align: center;
-  background-color: aliceblue;
+  background-color: black;
+  color: white;
 }
 
 .moviesWrapper-Container{

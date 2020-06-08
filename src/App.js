@@ -21,7 +21,7 @@ function checkLogin (flag) {
   return (<div className='appWrapper'>
     <div className='navbar' >
       <div className='navText'>
-        Infy Movies
+        Satya Movies
       </div>
     </div>
     {!loginFlag ? <div className='loginScreen'>
